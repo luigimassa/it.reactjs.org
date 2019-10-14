@@ -6,9 +6,10 @@ next: hooks-rules.html
 prev: hooks-state.html
 ---
 
-*Hooks* are a new addition in React 16.8. They let you use state and other React features without writing a class.
+*Hooks* sono una nuova funzionalità della versione di React 16.8. Gli Hooks permettono di utilizzare lo stato e le altre funzionalità di React senza scrivere una classe.
 
 The *Effect Hook* lets you perform side effects in function components:
+L'*Effect Hook* consente di eseguire effetti aggiuntivi nei componenti delle funzioni:
 
 ```js{1,6-10}
 import React, { useState, useEffect } from 'react';
